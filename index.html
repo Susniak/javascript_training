@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <title>Projekt testowy</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/sidenav.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div class="wraper">
@@ -15,11 +22,52 @@
         <input type="search" placeholder="Search.." name="search" />
         <button type="submit">Search</button>
       </div>
-        <div class="dropdown">
-          <button class="dropbtn">my account</button><i class="fas fa-caret-down"></i>
-          <div class="dropdown-content">
-            <a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link 3</a>
+      <div class="dropdown">
+        <button class="dropbtn">my account</button
+        ><i class="fas fa-caret-down"></i>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link 3</a>
         </div>
+      </div>
+    </div>
+    <div class="sidenav">
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Statistics (Charts)</a></li>
+        <li><a href="#">Tables</a></li>
+        <li><a href="#">Buttons</a></li>
+        <li><a href="#">Editors</a></li>
+        <li><a href="#">Forms</a></li>
+        <li>
+          <a id="last" href="#">Pages</a>
+          <div class="pages-list">
+              <a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link 3</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <div class="flexbox item1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+        nemo!
+      </div>
+      <div class="flexbox item2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+        nemo!
+      </div>
+      <div class="flexbox item3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+        nemo!
+      </div>
+      <div class="flexbox item4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+        nemo!
+      </div>
+      <div class="flexbox item5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+        nemo!
       </div>
     </div>
   </body>
