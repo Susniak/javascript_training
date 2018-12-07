@@ -5,7 +5,6 @@
     <title>Projekt testowy</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/sidenav.css" />
-    <link rel="stylesheet" href="./css/grid.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -32,17 +31,21 @@
     </div>
     <div class="sidenav">
       <ul>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Calendar</a></li>
-        <li><a href="#">Statistics (Charts)</a></li>
-        <li><a href="#">Tables</a></li>
-        <li><a href="#">Buttons</a></li>
-        <li><a href="#">Editors</a></li>
-        <li><a href="#">Forms</a></li>
+        <li><a id="first" href="#"><i class="fas fa-home"></i>Dashboard</a></li>
+        <li><a href="#"><i class="fas fa-calendar-alt"></i>Calendar</a></li>
+        <li><a href="#"><i class="fas fa-chart-bar"></i>Statistics (Charts)</a></li>
+        <li><a href="#"><i class="fas fa-tasks"></i>Tables</a></li>
+        <li><a href="#"><i class="far fa-circle"></i>Buttons</a></li>
+        <li><a href="#"><i class="fas fa-pencil-alt"></i>Editors</a></li>
+        <li><a href="#"><i class="fas fa-bars"></i>Forms</a></li>
         <li>
-          <a id="last" href="#">Pages</a>
-          <div class="pages-list">
-              <a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link 3</a>
+          <div class="dropdown-pages">
+            <a id="last" class="dropbtn "><i class="fas fa-tasks"></i>Pages<i class="fas fa-caret-down"></i>
+            </a>
+            <div class="dropdown-pages-content">
+              <a href="#">Link 1</a> <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
           </div>
         </li>
       </ul>
