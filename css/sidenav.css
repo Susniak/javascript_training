@@ -1,13 +1,14 @@
 .sidenav {
   height: 100%;
-  width: 12%;
-  display: inline-block;
+  width: 17%;
+  display: block;
+  float: left;
 }
 .sidenav ul {
   list-style: none;
-  border-radius: 10px;
+  border-radius: 6px;
   width: 232px;
-  margin-left: 12%;
+  margin-left: 9px;
   background-color: rgb(255, 255, 255);
   padding-inline-start: 0;
 }
@@ -22,7 +23,7 @@
   display: block;
   width: 125px;
   margin-left:5px;
-  padding: 10px 49px 10px 49px;
+  padding: 10px 82px 10px 15px;
   border-bottom: 1px dotted rgb(170, 170, 170);
 }
 
@@ -40,7 +41,9 @@
 }
 .sidenav ul li #last { /*wylaczenie ramki ostatniego elementu */ 
   border-bottom: none;
-  padding-bottom: 15px;
+  width:200px;
+  padding-bottom:15px;
+  margin-right: 25px;
 }
 /*
 .pages-list {  /* elementy hovera pages 
@@ -81,6 +84,7 @@
 
 .dropdown-pages .dropbtn .fa-caret-down{
   float:right;
+  margin-right: 0.5em;
 }
 
 .dropdown-pages-content {
