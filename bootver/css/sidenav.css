@@ -1,0 +1,120 @@
+.sidenav {
+  height: 100%;
+  width: 17%;
+  display: block;
+  float: left;
+}
+.sidenav ul {
+  list-style: none;
+  border-radius: 6px;
+  width: 232px;
+  margin-left: 9px;
+  background-color: rgb(255, 255, 255);
+  padding-inline-start: 0;
+}
+.sidenav ul li {
+  padding: 5px 0 5px 0;
+  width: 125px;
+}
+.sidenav ul li a {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+  text-align: left;
+  display: block;
+  width: 125px;
+  margin-left:5px;
+  padding: 10px 82px 10px 15px;
+  border-bottom: 1px dotted rgb(170, 170, 170);
+}
+
+.sidenav ul li i{
+  padding-right: 15px;
+}
+
+
+.sidenav ul li a:hover { /*mechanika sidebara (hover) */ 
+  color: rgb(0, 0, 0);
+}
+
+.sidenav ul li #first {  
+    padding-top: 15px;
+}
+.sidenav ul li #last { /*wylaczenie ramki ostatniego elementu */ 
+  border-bottom: none;
+  width:200px;
+  padding-bottom:15px;
+  margin-right: 25px;
+}
+/*
+.pages-list {  /* elementy hovera pages 
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.pages-list a{
+  float: none;
+  position: relative;
+  color: black;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+#last:hover .pages-list{ /*mechanika hovera pages  
+  display: block; } */
+
+  /*od tego miejsca wysuwany accbtn */
+
+  .dropdown-pages{
+    transition: 0.5s;
+  }
+
+.dropdown-pages .dropbtn {
+  outline:none;
+  border:none;
+  background-color: inherit;
+  display: block;
+  
+}
+
+.dropdown-pages .dropbtn .fa-caret-down{
+  float:right;
+  margin-right: 0.5em;
+}
+
+.dropdown-pages-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  min-width: 160px;
+  width: 232px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  
+}
+
+.dropdown-pages-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-pages:hover .dropdown-pages-content {
+  display: block;
+}
+
+/*koniec wysuwanego accbtn */
+.content {
+  margin-left: 23%;
+}
