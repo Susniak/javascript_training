@@ -3,37 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <title>Projekt testowy</title>
-    <link rel="stylesheet" href="../bootver/bootstrap/css/bootstrap-reboot.min.css" />
-    <!--  <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/sidenav.css" />
-    <link rel="stylesheet" href="./css/boxes.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous"
-    />  -->
+    <link rel="stylesheet" href="../bootver/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" >
   </head>
   <body>
     <nav class="navbar navbar-dark bg-primary ">
-
       <a href="#" class="navbar-brand offset-2">Bootstrap Admin Theme</a>
 
+
       <form action="" class="form-inline">
-        <input class="form-control" type="search" placeholder="Search.." name="search" />
+        <input
+          class="form-control"
+          type="search"
+          placeholder="Search.."
+          name="search"
+        />
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
 
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          My account
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-    </nav>
 
+      <div class="dropdown">
+        <a class="nav-link text-white dropdown-toggle" id="accdrop" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">My Account</a>
+        
+        <div class="dropdown-menu" aria-labelledby="accdrop">
+          <button class="dropdown-item" type="button">Action</button>
+          <button class="dropdown-item" type="button">Another action</button>
+          <button class="dropdown-item" type="button">Something else here</button>
+        </div>
+      </nav>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
