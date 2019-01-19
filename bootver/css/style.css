@@ -7,6 +7,10 @@ body {
 
 }
 
+#navbar{
+  background-color: rgb(45,55,65);
+}
+
 #search-panel input{
   width:250px;
   padding:0;
